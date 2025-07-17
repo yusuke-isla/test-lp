@@ -1,0 +1,139 @@
+/* 基本スタイル */
+body {
+    font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+/* ヘッダー */
+header {
+    background: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #0056b3;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* メインビジュアル */
+#hero {
+    background: #0056b3;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ffc107;
+    color: #333;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* セクション共通 */
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+/* 取扱業務 */
+.service-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-item {
+    background: #f4f4f4;
+    padding: 2rem;
+    border-radius: 5px;
+    flex-basis: 30%;
+    text-align: center;
+}
+
+/* お問い合わせフォーム */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* フッター */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}

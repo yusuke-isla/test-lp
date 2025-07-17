@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法律事務所</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>法律事務所</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">事務所概要</a></li>
+                    <li><a href="#services">取扱業務</a></li>
+                    <li><a href="#lawyers">弁護士紹介</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>あなたの悩みに、専門家が寄り添います。</h2>
+                <p>初回相談無料。お気軽にご相談ください。</p>
+                <a href="#contact" class="cta-button">今すぐ相談する</a>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>事務所概要</h2>
+            <p>ここに事務所の理念や特徴を記述します。</p>
+        </section>
+
+        <section id="services" class="container">
+            <h2>取扱業務</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <h3>離婚問題</h3>
+                    <p>財産分与、親権、養育費など、離婚に関するあらゆる問題に対応します。</p>
+                </div>
+                <div class="service-item">
+                    <h3>相続問題</h3>
+                    <p>遺産分割協議、遺言書作成、相続放棄など、円満な相続をサポートします。</p>
+                </div>
+                <div class="service-item">
+                    <h3>交通事故</h3>
+                    <p>示談交渉、後遺障害等級認定、損害賠償請求など、被害者の権利を守ります。</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="lawyers" class="container">
+            <h2>弁護士紹介</h2>
+            <p>経験豊富な弁護士が、親身に対応いたします。</p>
+            <!-- ここに弁護士の情報を追加 -->
+        </section>
+
+        <section id="contact" class="container">
+            <h2>お問い合わせ</h2>
+            <form>
+                <label for="name">お名前</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">メールアドレス</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">ご相談内容</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 法律事務所. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
